@@ -46,10 +46,16 @@ function App() {
       amount: 500,
       date: new Date(2021, 6, 25),
     },
-  ]
+  ];
+
+  const addExpenseHandler = (expense) => {
+    console.log('in App.ja');
+    console.log(expense);
+  }
+
   return (
     <div className="App">    
-      <NewExpense /> 
+      <NewExpense onAddExpense={addExpenseHandler} /> 
       <Expenses items={expenses}/>
     </div>
   );

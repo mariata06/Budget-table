@@ -49,8 +49,8 @@ function App() {
   ];
 
   const addExpenseHandler = (expense) => {
-    console.log('in App.ja');
-    console.log(expense);
+    // console.log('in App.ja');
+    // console.log(expense);
   }
 
   return (

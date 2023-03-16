@@ -49,3 +49,9 @@ body {
   width: 90vw;
   margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+  .App {
+    width: 95vw;
+  }
+}

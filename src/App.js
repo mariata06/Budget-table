@@ -63,9 +63,6 @@ function App() {
   const [expenses, setExpenses] = useState(INITIAL_EXPENSES);
 
   const addExpenseHandler = (expense) => {
-    // console.log('in App.ja');
-    // console.log(expense);
-    // setExpenses([expense, ...expenses]);
     setExpenses((prevExpenses) => {
       return [expense, ...prevExpenses];
     })
